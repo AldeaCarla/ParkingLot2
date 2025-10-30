@@ -19,5 +19,5 @@
     <h2>Author</h2>
     <p>Created by Alexandru Dorobanțiu and extended as part of your JSP learning exercises.</p>
 
-    <a href="index.jsp">⬅ Back to Home</a>
+
 </t:pageTemplate>
