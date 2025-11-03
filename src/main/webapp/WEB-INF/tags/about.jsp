@@ -16,8 +16,7 @@
         <li>Provide a simple and user-friendly interface.</li>
     </ul>
 
-    <h2>Author</h2>
-    <p>Created by Alexandru Dorobanțiu and extended as part of your JSP learning exercises.</p>
+
 
 
 </t:pageTemplate>
