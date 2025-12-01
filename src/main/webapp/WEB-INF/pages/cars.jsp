@@ -11,6 +11,17 @@
         Add Car
     </a>
 
+    <a class="btn btn-primary btn-sm"
+       href="${pageContext.request.contextPath}/EditCar?id=<%= car.getId() %>">
+        Edit
+    </a>
+
+    <a class="btn btn-danger btn-sm"
+       href="${pageContext.request.contextPath}/DeleteCar?id=<%= car.getId() %>"
+       onclick="return confirm('Are you sure you want to delete this car?');">
+        Delete
+    </a>
+
     <div class="cpntainer text-center">
         <c:forEach var="car" items="${cars}">
             <div class="row">
