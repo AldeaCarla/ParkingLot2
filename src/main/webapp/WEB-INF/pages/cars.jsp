@@ -3,7 +3,14 @@
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <t:pageTemplate pageTitle="Cars">
-  <h1>Cars</h1>
+    <div class="container mt-4">
+    <h1 class="mb-4">Cars</h1>
+
+    <a class="btn btn-primary btn-lg"
+       href="${pageContext.request.contextPath}/AddCar">
+        Add Car
+    </a>
+
     <div class="cpntainer text-center">
         <c:forEach var="car" items="${cars}">
             <div class="row">

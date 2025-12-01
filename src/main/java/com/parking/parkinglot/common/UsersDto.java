@@ -15,29 +15,5 @@ public class UsersDto {
     public String getUsername() { return username; }
     public String getEmail() { return email; }
 
-    public static class CarDto {
-        Long id;
-    
-        public Long getId() {
-            return id;
-        }
-    
-        String licensePlate;
-    
-        public String getLicensePlate() {
-            return licensePlate;
-        }
-    
-        String parkingSpot;
-    
-        public String getParkingSpot() {
-            return parkingSpot;
-        }
-    
-        String ownerName;
-    
-        public String getOwnerName() {
-            return ownerName;
-        }
-    }
+
 }

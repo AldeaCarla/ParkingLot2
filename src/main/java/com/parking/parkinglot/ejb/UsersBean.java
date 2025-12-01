@@ -1,12 +1,12 @@
 package com.parking.parkinglot.ejb;
 
 import com.parking.parkinglot.common.UsersDto;
+import com.parking.parkinglot.entities.User;
 import jakarta.ejb.EJBException;
 import jakarta.ejb.Stateless;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
 import jakarta.persistence.TypedQuery;
-import org.example.parkinglot.entities.User;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -20,7 +20,7 @@ public class UsersBean {
     @PersistenceContext
     EntityManager entityManager;
 
-    public List<UsersDto> findAllUsers() {
+    public static List<UsersDto> findAllUsers() {
         try {
             LOG.info("findAllUsers");
 

@@ -25,5 +25,7 @@
 
 
 <jsp:include page="/WEB-INF/tags/footer.jsp" />
+<script src="${pageContext.request.contextPath}/scripts/form-validation.js"></script>
+
 </body>
 </html>
